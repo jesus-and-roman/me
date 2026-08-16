@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Roman Roy — Développeur</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="bg-mesh"></div>
+<div class="cursor-glow" id="cursorGlow"></div>
+
+<nav>
+  <div class="wrap">
+    <div class="logo"><span class="dot"></span>roman.dev</div>
+    <div class="nav-links" id="navLinks">
+      <a href="index.html" class="active">Accueil</a>
+      <a href="about.html">À propos</a>
+      <a href="skills.html">Compétences</a>
+      <a href="projects.html">Projets</a>
+      <a href="pride.html">Fierté</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <button class="nav-toggle" id="navToggle">menu</button>
+  </div>
+</nav>
+
+<header class="page-hero">
+  <div class="wrap">
+    <div class="eyebrow">// @jesus_and_roman — disponible pour missions</div>
+    <h1 class="name">Roman Roy<br><span>construit des produits web rapides.</span></h1>
+    <p class="hero-sub">Développeur touche-à-tout — du script batch au design d'interface, en passant par les bases de données et la sécurité. Je construis, je casse, je répare.</p>
+    <div class="hero-cta">
+      <a href="projects.html" class="btn btn-primary">Voir mes projets</a>
+      <a href="contact.html" class="btn btn-ghost">Me contacter</a>
+    </div>
+
+    <div class="terminal">
+      <div class="terminal-bar">
+        <span></span><span></span><span></span>
+        <div class="terminal-title">whoami.py</div>
+      </div>
+      <div class="terminal-body" id="typedCode"></div>
+    </div>
+  </div>
+</header>
+
+<section class="tight">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="section-num">explorer</div>
+      <div class="section-title">Sur ce site</div>
+    </div>
+    <div class="link-grid">
+      <a class="link-card reveal" href="about.html">
+        <div class="link-num">01</div>
+        <div class="link-title">À propos</div>
+        <div class="link-desc">Qui je suis, comment je travaille, ce qui me motive.</div>
+      </a>
+      <a class="link-card reveal" href="skills.html">
+        <div class="link-num">02</div>
+        <div class="link-title">Compétences</div>
+        <div class="link-desc">Scripting, web, bases de données, design, sécurité.</div>
+      </a>
+      <a class="link-card reveal" href="projects.html">
+        <div class="link-num">03</div>
+        <div class="link-title">Projets</div>
+        <div class="link-desc">Une sélection de ce que j'ai construit — en cours d'ajout.</div>
+      </a>
+      <a class="link-card reveal" href="pride.html">
+        <div class="link-num">04</div>
+        <div class="link-title">Fierté</div>
+        <div class="link-desc">D'où je viens : le Saguenay, le Québec, mes valeurs.</div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">© 2026 Roman Roy — @jesus_and_roman</div>
+</footer>
+
+<script src="js/main.js"></script>
+<script>
+runTerminal([
+  '<span class="t-key">const</span> dev = {',
+  '&nbsp;&nbsp;name: <span class="t-str">"Roman Roy"</span>,',
+  '&nbsp;&nbsp;handle: <span class="t-str">"@jesus_and_roman"</span>,',
+  '&nbsp;&nbsp;stack: [<span class="t-str">"python"</span>, <span class="t-str">"sql"</span>, <span class="t-str">"lua"</span>, <span class="t-str">"js"</span>, <span class="t-str">"batch"</span>],',
+  '&nbsp;&nbsp;interests: [<span class="t-str">"ui design"</span>, <span class="t-str">"sécurité"</span>, <span class="t-str">"bases de données"</span>],',
+  '&nbsp;&nbsp;<span class="t-fn">available</span>: <span class="t-key">true</span>',
+  '};',
+  '<span class="t-com">// prêt pour le prochain projet</span>',
+]);
+</script>
+
+</body>
+</html>

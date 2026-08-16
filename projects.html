@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Projets — Roman Roy</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="bg-mesh"></div>
+<div class="cursor-glow" id="cursorGlow"></div>
+
+<nav>
+  <div class="wrap">
+    <div class="logo"><span class="dot"></span>roman.dev</div>
+    <div class="nav-links" id="navLinks">
+      <a href="index.html">Accueil</a>
+      <a href="about.html">À propos</a>
+      <a href="skills.html">Compétences</a>
+      <a href="projects.html" class="active">Projets</a>
+      <a href="pride.html">Fierté</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <button class="nav-toggle" id="navToggle">menu</button>
+  </div>
+</nav>
+
+<header class="page-hero">
+  <div class="wrap">
+    <div class="eyebrow">03 — travaux</div>
+    <h1 class="page-title">Projets</h1>
+    <p class="hero-sub">Une sélection de ce que je construis. Cette page est prête à recevoir tes projets — remplace les cartes ci-dessous par les tiens.</p>
+  </div>
+</header>
+
+<section class="tight">
+  <div class="wrap">
+
+    <!-- Exemple de carte projet à dupliquer et personnaliser -->
+    <div class="project-card reveal" onmousemove="spot(event,this)">
+      <div class="project-top">
+        <div class="project-name">Nom du projet</div>
+        <div class="project-tag">Catégorie</div>
+      </div>
+      <p class="project-desc">Décris ici ce que fait le projet, le problème qu'il résout, et ce qui le rend intéressant.</p>
+      <div class="project-stack"><span>Techno 1</span><span>Techno 2</span><span>Techno 3</span></div>
+      <a href="#" class="project-link">Voir sur GitHub</a>
+    </div>
+
+    <div class="project-empty reveal">
+      + ajoute tes prochains projets ici — duplique une carte ci-dessus et remplace le contenu
+    </div>
+
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">© 2026 Roman Roy — @jesus_and_roman</div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
